@@ -1,0 +1,77 @@
+.model {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+}
+.box__js {
+  width: 500px;
+  border: solid black 1px;
+  padding: 20px;
+  margin: 0 auto;
+  position: relative;
+  top: 20%;
+  background-color: rgb(247, 247, 248);
+  z-index: 3;
+  animation: showBox 0.3s linear;
+}
+.box__cart {
+  overflow-y: scroll;
+}
+.box__cart img {
+  width: 70px;
+  height: 70px;
+}
+.close {
+  font-size: 35px;
+  float: right;
+}
+.close:hover,
+.delete:hover {
+  color: red;
+  cursor: pointer;
+}
+.title {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.box__cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(223, 223, 223);
+  padding: 10px;
+}
+.delete {
+  font-size: 25px;
+  font-weight: 400;
+}
+.box__cart-content p:first-child {
+  margin: 0;
+  padding: 0;
+}
+.size {
+  margin: 0;
+  padding: 2px;
+  font-size: 12px;
+}
+.quantity {
+  width: 30px;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.price {
+  color: red;
+}
+.box__btn {
+  display: flex;
+  justify-content: space-between;
+}
+.hige {
+  display: none;
+}

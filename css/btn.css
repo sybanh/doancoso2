@@ -1,0 +1,48 @@
+.card__image {
+  position: relative;
+}
+.card__btn {
+  display: none;
+}
+.card__btn .btn__item {
+  padding: 5px;
+  position: absolute;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border-radius: 0;
+  bottom: 0;
+  outline: none;
+  animation: btnShow 0.2s linear;
+}
+.card__btn .btn__item a {
+  text-decoration: none;
+}
+.card__btn .btn__item:first-child {
+  left: 0;
+}
+.card__btn .btn__item:last-child {
+  right: 0;
+}
+.card__btn .btn__item a {
+  text-decoration: none;
+  color: white;
+}
+.btn__item:hover {
+  background-color: black;
+  cursor: pointer;
+  color: aqua;
+}
+.card__image:hover .card__btn {
+  display: block;
+}
+@keyframes btnShow {
+  from {
+    bottom: -30px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}

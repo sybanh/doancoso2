@@ -1,0 +1,70 @@
+.content__header {
+  margin-top: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 50px;
+  border-bottom: solid black 1px;
+  border-top: solid black 1px;
+  background-color: rgb(230, 229, 229);
+}
+.content__nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  opacity: 0.9;
+}
+.content__nav span {
+  opacity: 0.8;
+  font-size: 14px;
+}
+.content__nav a:hover {
+  color: aqua;
+}
+.card__img .img {
+  overflow-x: scroll;
+  height: 550px;
+  width: 100%;
+}
+.size {
+  display: flex;
+  align-items: center;
+}
+.size p {
+  padding: 8px 16px;
+  border: solid rgb(18, 17, 17) 1px;
+  margin-right: 10px;
+}
+.size p:hover {
+  cursor: pointer;
+  background-color: rgb(128, 127, 127);
+  color: white;
+}
+.size p:first-child {
+  background-color: black;
+  color: white;
+}
+.color div {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+}
+.color p {
+  font-size: 13px;
+  margin: 5px 0;
+}
+.color {
+  margin-bottom: 10px;
+}
+.btn {
+  margin: 15px 0;
+}
+.description a {
+  color: black;
+  font-weight: 600;
+}
+.description p {
+  opacity: 0.9;
+  font-size: 16px;
+}

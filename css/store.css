@@ -1,0 +1,28 @@
+.content__header {
+  margin-top: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 50px;
+  border-bottom: solid black 1px;
+  border-top: solid black 1px;
+  background-color: rgb(230, 229, 229);
+}
+.content__nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  opacity: 0.9;
+}
+.content__nav span {
+  opacity: 0.8;
+  font-size: 14px;
+}
+.content__nav a:hover {
+  color: aqua;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
